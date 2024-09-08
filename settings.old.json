@@ -1,0 +1,111 @@
+{
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": false,
+  "editor.lineSpacing": 1.2,
+  "editor.lineHeight": 26,
+  "editor.tabSize": 2,
+  "editor.tabCompletion": "on",
+  "editor.wordWrap": "on",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.donotVerifyTags": true,
+  "diffEditor.renderSideBySide": true,
+  "html.autoClosingTags": true,
+  "editor.colorDecorators": true,
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingQuotes": "always",
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.js": "javascript",
+    "*.ts": "typescript",
+    "*.php": "php",
+    "*.html": "html",
+    "*.vue": "vue"
+  },
+  "editor.minimap.renderCharacters": false,
+  "breadcrumbs.enabled": false,
+  "color-highlight.markerType": "dot-before",
+  "editor.renderWhitespace": "selection",
+  "workbench.statusBar.visible": true,
+  "prettier.trailingComma": "all",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.sortOrder": "default",
+  "window.title": "${activeEditorMedium}${separator}${rootName}",
+  "window.newWindowDimensions": "inherit",
+  "html.format.wrapAttributes": "auto",
+  "html.format.wrapLineLength": 0,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "editor.largeFileOptimizations": false,
+  "eslint.format.enable": true,
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "breadcrumbs.enable": true,
+  "editor.parameterHints.enabled": false,
+  "editor.formatOnSave": true,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.fontFamily": "monospace",
+  "php.validate.executablePath": "C:\\wamp64\\bin\\php\\php8.2.13\\php.exe",
+  "intelephense.format.braces": "k&r",
+  "intelephense.format.insertSpaceBeforeFunctionParenthesis": true,
+  "intelephense.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "intelephense.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.colorTheme": "Omni",
+  "workbench.editorLargeFileConfirmation": 3072,
+  "files.maxMemoryForLargeFilesMB": 16384,
+  "files.autoSave": "afterDelay",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": "explicit"
+  },
+  "workbench.editorAssociations": {
+    "*.exe": "default"
+  },
+  "intelephense.environment.phpVersion": "7.4.33",
+  "php.debug.executablePath": "C:/wamp64/bin/php/php7.4.33/php.exe",
+  "window.zoomLevel": 1,
+  "intelephense.files.associations": ["*.php", "*.phtml"],
+  "intelephense.phpdoc.classTemplate": {
+    "summary": "$1",
+    "tags": ["@package ${1:$SYMBOL_NAMESPACE}"]
+  },
+  "intelephense.phpdoc.propertyTemplate": {
+    "summary": "$1",
+    "tags": ["@var ${1:$SYMBOL_TYPE}"]
+  },
+  "prisma.showPrismaDataPlatformNotification": false
+}
